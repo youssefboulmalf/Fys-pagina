@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style>
+        #backgroundImage {
+            position: absolute;
+            padding: 0px;
+            margin: 0px;
+            width: 100%;
+            height: 150%;
+            opacity: 0.7;
+            z-index: -1;
+        }
+
+        body {
+            margin: 0px;
+            font-family: 'Open Sans', Helvetica, sans-serif;
+        }
+
+        #banner {
+            background-color: white;
+            padding: 25px 50px;
+        }
+
+        #banner img {
+            width: 350px;
+            height: 60px;
+        }
+
+        #navigation {
+            background-color: #d81e05;
+        }
+
+        ul {
+            padding: 0px 25%;
+            margin: 0px;
+            list-style-type: none;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            padding: 5px;
+            font-size: 20px;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            color: white;
+        }
+
+        /* Padding op 0px zetten voor de homepageknop, want het is een afbeelding.
+        Alle andere knopjes behouden hun 5px padding. */
+
+        #homepageButton {
+            margin-right: 30px;
+            padding: 0px;
+        }
+
+        /* homepage icoontje */
+        li a img {
+            width: 30px;
+            height: 30px;
+        }
+
+        li a:hover {
+            background-color: #ae1804;
+        }
+        #content{
+            background-color: white;
+            padding: 0px;
+            margin: 0px;
+            height: 130%;
+            width: 62.5%;
+            position: absolute;
+            left: 18.75%;
+        }
+        #header {
+            text-align: center;
+            font-weight: bold;
+            font-size: 23px;
+        }
+        p{
+            text-align: center;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+<img src="backgroundImage.png" id="backgroundImage"/>
+
+<div id="banner">
+    <img src="travel2gether.png" alt="Corendon"/>
+</div>
+
+<div id="navigation">
+    <ul>
+        <li><a href="home.html" id="homepageButton"><img src="homepageIcon.png" alt="Home"/></a></li>
+        <li><a href="Buiseniss.html">Introductie Project</a></li>
+        <li><a href="Business%20case.html">Business Case</a></li>
+        <li><a href="RequirementsPage1.html">Requirements</a></li>
+        <li><a href="gallerij.html">Gallerij</a></li>
+        <li><a href="contact%20(1).html">Contact</a></li>
+    </ul>
+</div>
+<div id="content">
+    <p id="header">2. Aanleiding </p>
+    <p id="text">Mensen die alleen een vakantie boeken vervelen zich soms, omdat ze alleen zijn.<br>
+        Die mensen gaan dan opzoek naar anderen om hun reis mee te delen.<br>
+        Maar het is heel moeilijk om iemand te vinden die toevallig naar het zelfde bestemming gaat reizen.<br>
+        Wij willen wat opbouwen dat het gemakkelijker gaat om iemand te vinden, en te bereiken.
+    </p>
+</div>
+</body>
+</html>
